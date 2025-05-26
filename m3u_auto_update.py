@@ -1,6 +1,6 @@
 import requests
 
-M3U_URL = "https://example.com/your_playlist.m3u"
+M3U_URL = "https://raw.githubusercontent.com/Habib4326/Movie_plyalist/refs/heads/main/Update.m3u"
 LOCAL_FILE = "updated_playlist.m3u"
 
 def update_m3u():
