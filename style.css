@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: black;
+  overflow: hidden;
+  font-family: 'Lucida Console', monospace;
+  color: #0f0;
+}
+
+.matrix-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.wow-title {
+  position: absolute;
+  z-index: 2;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: gold;
+  text-shadow: 0 0 10px black;
+}
+
+.wow-title img {
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+.wow-title h1 {
+  font-size: 2em;
+  margin: 0;
+}
