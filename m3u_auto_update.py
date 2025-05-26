@@ -5,7 +5,7 @@ LOCAL_FILE = "updated_playlist.m3u"
 
 def update_m3u():
     try:
-        response = requests.get(https://raw.githubusercontent.com/Habib4326/Movie_plyalist/refs/heads/main/Update.m3u)
+        response = requests.get(M3U_URL)
         if response.status_code == 200:
             with open(LOCAL_FILE, 'w', encoding='utf-8') as file:
                 file.write(response.text)
